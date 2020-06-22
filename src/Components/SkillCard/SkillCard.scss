@@ -1,0 +1,47 @@
+.skillz {
+  margin-left: auto;
+  margin-right: auto;
+  width: 215px;
+  height: 225px;
+  box-shadow: 0 0px 20px rgba(154, 160, 185, 0.05),
+    0 0px 8px rgba(166, 173, 201, 0.2);
+  @media screen and (max-width: 600px) {
+    box-shadow: 20 15px 20px rgba(166, 173, 201, 0.2),
+      20 15px 60px rgba(166, 173, 201, 0.2);
+  }
+
+  &:hover {
+    @media screen and (min-width: 600px) {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+
+  &:active {
+    @media screen and (max-width: 600px) {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .image {
+      width: 150px;
+      height: 150px;
+      margin-left: 34px;
+      margin-top: 15px;
+    }
+
+    .name {
+      color: white;
+      margin-top: 17px;
+      text-align: center;
+      font-size: 1.95rem;
+      font-weight: lighter;
+    }
+  }
+}

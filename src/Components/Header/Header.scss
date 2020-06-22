@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+
+  .social {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-title {
+    color: white;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+
+  .header-title {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 0;
+    float: none;
+    margin-top: 8px;
+  }
+}

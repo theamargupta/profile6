@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background: #0a192f no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Components/Background/Kards10/images/intro-bg.jpg*/
