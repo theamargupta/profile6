@@ -66,7 +66,7 @@ const ProjectData2 = [
       emphasis on its SEO and social media marketing and a smooth and responsive UI using wordpress with various plugins. 
       Features include chat bot for visitors, bulk compression of images, login with facebook integration.`,
     github: 'https://github.com/amar-gupta-au8/Awosome-React-blog',
-    live: 'https://awosome-blog.netlify.app/home',
+    live: 'https://awosome-blog.netlify.app/',
   },
 ];
 
