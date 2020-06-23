@@ -39,7 +39,7 @@ const ProjectData2 = [
   },
   {
     id: 5,
-    title: 'Portfolio',
+    title: 'Portfolio1',
     imageUrl: 'https://i.ibb.co/X4kLNYp/3.png',
     description: `Portfolio – A Successful Dropshipping Ecommerce Store with 390+ products in inventory customized with a theme and high 
       emphasis on its SEO and social media marketing and a smooth and responsive UI using wordpress with various plugins. 
@@ -49,6 +49,16 @@ const ProjectData2 = [
   },
   {
     id: 6,
+    title: 'Portfolio2',
+    imageUrl: 'https://i.ibb.co/Vg6LMMF/Screenshot-2020-06-23-at-5-25-54-PM.png',
+    description: `Portfolio – A Successful Dropshipping Ecommerce Store with 390+ products in inventory customized with a theme and high 
+      emphasis on its SEO and social media marketing and a smooth and responsive UI using wordpress with various plugins. 
+      Features include chat bot for visitors, bulk compression of images, login with facebook integration.`,
+    github: 'https://github.com/amar-gupta-au8/profile6',
+    live: 'https://amar-profile6.netlify.app/',
+  },
+  {
+    id: 7,
     title: 'Awosome React Blog',
     imageUrl:
       'https://i.ibb.co/hCLQ9mf/Screenshot-2020-06-23-at-5-18-15-PM.png',
