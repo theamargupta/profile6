@@ -26,9 +26,7 @@ const Homepage = ({ history }) => {
                 <p className='subtitle'>Hi, my name is</p>
                 <h1 className='title'>Amar Gupta</h1>
                 <span className='subtitle'>
-                  I Built Things for Web
-                  <br />
-                  Full-Stack Web Developer
+                  I'm a Full-Stack Web Developer
                 </span>
               </div>
               <div className='buttons-container'>
