@@ -3,8 +3,8 @@ import './Homepage.scss';
 import Profile from './profile.jpeg';
 import CustomButton from '../../Components/CustomButton/CustomButton';
 import Header from '../../Components/Header/Header';
-// import Thanos from "react-thanos";
-// import StarWars from "../../Components/StarWars/StarWars";
+//  import Thanos from "react-thanos";
+//  import StarWars from "../../Components/StarWars/StarWars";
 
 const Homepage = ({ history }) => {
   const [snapp] = useState(false);
@@ -14,9 +14,9 @@ const Homepage = ({ history }) => {
         <div className='content'>
           <Header homepage className='navheader' />
           {snapp ? (
-            {
-              /* <StarWars /> */
-            }
+            
+               {/* <StarWars />  */}
+            
           ) : (
             <div className='homepage-container'>
               <div>
