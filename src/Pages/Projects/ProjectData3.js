@@ -96,6 +96,16 @@ const ProjectData2 = [
       github: "https://github.com/amar-gupta-au8/flexbox-project",
       live: "https://amar-flexproject.netlify.app/"
     },
+    {
+      id: 11,
+      title: "Flag App",
+      imageUrl: "https://i.ibb.co/4MNbQV8/Screenshot-2020-06-25-at-12-31-37-PM.png",
+      description: `A project based on implementing the most advanced concepts and features of CSS by using SASS, BEM (Block Element Modifier),
+       Transitions, Color-gradients, Background Images, Background Videos and more. It contains dozens of animations and design features and 
+       almost everything one can do with the power of CSS.`,
+      github: "https://github.com/amar-gupta-au8/flag-app",
+      live: "https://amar-flagapp.netlify.app/"
+    },
     
   ];
   
