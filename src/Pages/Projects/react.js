@@ -44,10 +44,3 @@ const ProjectData2 = [
 ];
 
 export default ProjectData2;
-
-// https://i.ibb.co/JdXZJG8/1.jpg
-// https://i.ibb.co/DRmbpn9/2.jpg
-// https://i.ibb.co/VVDtKVb/3.jpg
-// https://i.ibb.co/6bTFrzC/4.jpg
-// https://i.ibb.co/mtgK29T/5.jpg
-// https://i.ibb.co/PgfJdWv/6.jpg
