@@ -25,8 +25,8 @@ const FutureSection = [
       description: `A project based on implementing the most advanced concepts and features of CSS by using SASS, BEM (Block Element Modifier),
        Transitions, Color-gradients, Background Images, Background Videos and more. It contains dozens of animations and design features and 
        almost everything one can do with the power of CSS.`,
-      github: 'https://github.com/amar-gupta-au8/thewebdev',
-      live: 'https://thewebdev.herokuapp.com/',
+      github: 'https://github.com/amar-gupta-au8/movie-app',
+      live: 'https://amar-movieapp.netlify.app/',
     },
     {
         id: 4,
