@@ -1,8 +1,9 @@
 import React from "react";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
-import ProjectData from "./ProjectData";
-import ProjectData2 from "./ProjectData2";
-import ProjectData3 from "./ProjectData3";
+import ProjectData from "./mern";
+import ProjectData2 from "./react";
+import ProjectData3 from "./static";
+import FutureSection from "./future-pro";
 import "./Projects.scss";
 import Header from "../../Components/Header/Header";
 
@@ -10,7 +11,7 @@ const Projects = () => {
   return (
     <div className="outer">
       <Header projects />
-      <h1 className="prohead">Mern Stack</h1>
+      <h1 className="prohead">Node.JS</h1>
       <div className="projectcollection">
         {ProjectData.map(project => (
           <ProjectCard key={project.id} project={project} />
@@ -22,12 +23,12 @@ const Projects = () => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
-      {/* <h1 className="prohead">other</h1>
+      <h1 className="prohead">Future Projects</h1>
       <div className="projectcollection">
-        {ProjectData2.map(project => (
+        {FutureSection.map(project => (
           <ProjectCard key={project.id} project={project} />
         ))}
-      </div> */}
+      </div>
       <h1 className="prohead">Static</h1>
       <div className="projectcollection">
         {ProjectData3.map(project => (

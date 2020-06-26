@@ -21,16 +21,6 @@ const ProjectData = [
   },
   {
     id: 3,
-    title: 'Natours',
-    imageUrl: 'https://i.ibb.co/DRmbpn9/2.jpg',
-    description: `A project based on implementing the most advanced concepts and features of CSS by using SASS, BEM (Block Element Modifier),
-	 Transitions, Color-gradients, Background Images, Background Videos and more. It contains dozens of animations and design features and 
-	 almost everything one can do with the power of CSS.`,
-    github: '/',
-    live: '/',
-  },
-  {
-    id: 4,
     title: 'The Web Dev',
     imageUrl:
       'https://i.ibb.co/G9BkwKH/Screenshot-2020-06-23-at-5-07-21-PM.png',

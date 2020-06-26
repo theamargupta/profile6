@@ -10,14 +10,6 @@ const ProjectData2 = [
     live: 'https://amar-crown-cart.netlify.app/',
   },
   {
-    id: 2,
-    title: 'Netflix Clone',
-    imageUrl: 'https://i.ibb.co/brcXYzL/netflix-clone.jpg',
-    description: `Netflix clone made with advanced react, redux & firebase which uses redux thunk to asynchronously fetch movie data of over 30 thousand movies from Tmdb api. Features include a multi-active searchbar, user signup and signin, add to list option for each user, trailer links, dynamically generated movie and tv show pages and an interactive UI replicated from the original netflix app. `,
-    github: '/',
-    live: '/',
-  },
-  {
     id: 3,
     title: 'Asur',
     imageUrl:
@@ -57,17 +49,7 @@ const ProjectData2 = [
     github: 'https://github.com/amar-gupta-au8/profile6',
     live: 'https://amar-profile6.netlify.app/',
   },
-  {
-    id: 7,
-    title: 'Awosome React Blog',
-    imageUrl:
-      'https://i.ibb.co/hCLQ9mf/Screenshot-2020-06-23-at-5-18-15-PM.png',
-    description: `Portfolio – A Successful Dropshipping Ecommerce Store with 390+ products in inventory customized with a theme and high 
-      emphasis on its SEO and social media marketing and a smooth and responsive UI using wordpress with various plugins. 
-      Features include chat bot for visitors, bulk compression of images, login with facebook integration.`,
-    github: 'https://github.com/amar-gupta-au8/Awosome-React-blog',
-    live: 'https://awosome-blog.netlify.app/',
-  },
+  
 ];
 
 export default ProjectData2;
