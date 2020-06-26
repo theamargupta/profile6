@@ -4,9 +4,9 @@ const ProjectData2 = [
       title: "Portfolio One",
       imageUrl:
         "https://i.ibb.co/NjMnbCd/6.png",
-      description: `This project uses Handlebars for the front-end and a NodeJs/Express + OpenWeather for the back-end to create a fully responsive web application that pings the
-      Clarifai API for face detection in images and displays the image with a bounding box around the face along with the name
-      of the celebrity.`,
+      description: `This is my first portfolio. I have created it using HTML, CSS, Bootstrap.
+      In this website, I have written all the necessary details about myself.
+      As a beginner in web development, I have tried to do my best.`,
       github: "https://github.com/amar-gupta-au8/profile1",
       live: "https://amar-profile1.netlify.app/index.html"
     },
@@ -14,9 +14,10 @@ const ProjectData2 = [
       id: 2,
       title: "Portfolio Two",
       imageUrl: "https://i.ibb.co/SXCBWgv/12.png",
-      description: `A massive Ecommerce app made with React, Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase and covers a lot of 
-      advanced concepts of frontend technologies such as Redux-Sagas, React Router, Asynchronous Redux, Styled-Components, 
-      React Suspense & Lazy, State Normalization, Design Patterns, App Architecture and more.`,
+      description: `This is my first portfolio. I have created it using HTML, CSS, Bootstrap.
+      And a bit javascript also. I focused more on its frontend to make it look better.
+      In this website, I have written all the necessary details about myself. 
+      And every social media link which I use.`,
       github: "https://github.com/amar-gupta-au8/profile2",
       live: "https://amar-profile2.netlify.app/"
     },
@@ -24,7 +25,9 @@ const ProjectData2 = [
       id: 3,
       title: "Portfolio Three",
       imageUrl: "https://i.ibb.co/qDTp4MC/8.png",
-      description: `Netflix clone made with advanced react, redux & firebase which uses redux thunk to asynchronously fetch movie data of over 30 thousand movies from Tmdb api. Features include a multi-active searchbar, user signup and signin, add to list option for each user, trailer links, dynamically generated movie and tv show pages and an interactive UI replicated from the original netflix app. `,
+      description: `This is my third portfolio.
+      I created this as a challenge for myself. 
+     This is purely based on Bootstrap.`,
       github: "https://github.com/amar-gupta-au8/profile3",
       live: "https://amar-profile3.netlify.app/"
     },
@@ -32,9 +35,8 @@ const ProjectData2 = [
       id: 4,
       title: "Portfolio Four",
       imageUrl: "https://i.ibb.co/QNfKLGL/7.png",
-      description: `Asur is a React app that lets you search between different API generated robots with name with a custom made search bar
-      by using the power of robohash api. This is a perfect project for introduction to the world of React and API's. It's fully responsive and functional in 
-      different screen sizes.`,
+      description: `This is my Fourth based portfolio. I created this portfolio when I started learning React.js and 
+      I also used the Light and Dark mode button, which is created by using Javascript.`,
       github: "https://github.com/amar-gupta-au8/profile4",
       live: "https://amar-profile4.netlify.app/"
     },
@@ -42,9 +44,8 @@ const ProjectData2 = [
       id: 5,
       title: "BootStrap",
       imageUrl: "https://i.ibb.co/xYzcgs7/9.png",
-      description: `A project based on implementing the most advanced concepts and features of CSS by using SASS, BEM (Block Element Modifier),
-       Transitions, Color-gradients, Background Images, Background Videos and more. It contains dozens of animations and design features and 
-       almost everything one can do with the power of CSS.`,
+      description: `This is a website purely created by using Bootstrap4 and Figma.
+      I created this when I was learning Figma. This is just for learning purposes.`,
       github: "https://github.com/amar-gupta-au8/Bootstrap",
       live: "https://amar-btstrp-project.netlify.app/"
     },
@@ -52,9 +53,8 @@ const ProjectData2 = [
       id: 6,
       title: "Guess the no game",
       imageUrl: "https://i.ibb.co/fxcTX7L/14.png",
-      description: `Portfolio – A Successful Dropshipping Ecommerce Store with 390+ products in inventory customized with a theme and high 
-      emphasis on its SEO and social media marketing and a smooth and responsive UI using wordpress with various plugins. 
-      Features include chat bot for visitors, bulk compression of images, login with facebook integration.`,
+      description: `This is my first purely Javascript Project. And also the very first game created by me.
+      In this project I used javascript functions and other ES6 javascript.`,
       github: "https://github.com/amar-gupta-au8/guesstheno",
       live: "https://amar-no-game.netlify.app/"
     },
@@ -62,9 +62,7 @@ const ProjectData2 = [
       id: 7,
       title: "Blog",
       imageUrl: "https://i.ibb.co/mNwgPYG/10.png",
-      description: `A massive Ecommerce app made with React, Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase and covers a lot of 
-      advanced concepts of frontend technologies such as Redux-Sagas, React Router, Asynchronous Redux, Styled-Components, 
-      React Suspense & Lazy, State Normalization, Design Patterns, App Architecture and more.`,
+      description: `This is one of my blog websites which I created to learn some different small details about Web development.`,
       github: "https://github.com/amar-gupta-au8/crown-cart",
       live: "https://amar-blog.netlify.app/"
     },
@@ -72,7 +70,7 @@ const ProjectData2 = [
       id: 8,
       title: "Blogg",
       imageUrl: "https://i.ibb.co/wJVKcb0/11.png",
-      description: `Netflix clone made with advanced react, redux & firebase which uses redux thunk to asynchronously fetch movie data of over 30 thousand movies from Tmdb api. Features include a multi-active searchbar, user signup and signin, add to list option for each user, trailer links, dynamically generated movie and tv show pages and an interactive UI replicated from the original netflix app. `,
+      description: ` This is one of my blog websites which I created to learn some different small details about Web development. `,
       github: "https://github.com/amar-gupta-au8/Blogg",
       live: "https://amar-blogg.netlify.app/"
     },
@@ -80,9 +78,7 @@ const ProjectData2 = [
       id: 9,
       title: "Hbt hotel website",
       imageUrl: "https://i.ibb.co/qMpcPpY/16.png",
-      description: `Asur is a React app that lets you search between different API generated robots with name with a custom made search bar
-      by using the power of robohash api. This is a perfect project for introduction to the world of React and API's. It's fully responsive and functional in 
-      different screen sizes.`,
+      description: `This is a hotel website based on HTML, CSS, Bootstrap This website has all the information about the Hotel.`,
       github: "https://github.com/amar-gupta-au8/hotel",
       live: "https://amar-hotel.netlify.app/"
     },
@@ -90,9 +86,7 @@ const ProjectData2 = [
       id: 10,
       title: "Flex Box",
       imageUrl: "https://i.ibb.co/9NGDS9w/15.png",
-      description: `A project based on implementing the most advanced concepts and features of CSS by using SASS, BEM (Block Element Modifier),
-       Transitions, Color-gradients, Background Images, Background Videos and more. It contains dozens of animations and design features and 
-       almost everything one can do with the power of CSS.`,
+      description: `It is as clear as the name. A website completely based on FlexBox. I created this website when I was learning CSS styling.`,
       github: "https://github.com/amar-gupta-au8/flexbox-project",
       live: "https://amar-flexproject.netlify.app/"
     },
@@ -100,9 +94,8 @@ const ProjectData2 = [
       id: 11,
       title: "Flag App",
       imageUrl: "https://i.ibb.co/4MNbQV8/Screenshot-2020-06-25-at-12-31-37-PM.png",
-      description: `A project based on implementing the most advanced concepts and features of CSS by using SASS, BEM (Block Element Modifier),
-       Transitions, Color-gradients, Background Images, Background Videos and more. It contains dozens of animations and design features and 
-       almost everything one can do with the power of CSS.`,
+      description: `This app is based on Javascript. It is fetching data from API. This app is showing the data of every country.
+      Users can search for the data of the specific country. This is very useful Web App`,
       github: "https://github.com/amar-gupta-au8/flag-app",
       live: "https://amar-flagapp.netlify.app/"
     },

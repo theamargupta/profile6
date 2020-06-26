@@ -13,9 +13,11 @@ const ProjectData = [
     id: 2,
     title: 'TO-DO App',
     imageUrl: 'https://i.ibb.co/mvb2Q81/4.png',
-    description: `A massive Ecommerce app made with React, Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase and covers a lot of 
-	advanced concepts of frontend technologies such as Redux-Sagas, React Router, Asynchronous Redux, Styled-Components, 
-	React Suspense & Lazy, State Normalization, Design Patterns, App Architecture and more.`,
+    description: `A simple Todo List App  .This application is a very basic one but it has the following features:
+    Add and complete a task on a single page. 
+    Store both new and completed task in a different array.
+    Uses the express framework.
+    And a very minimal CSS styling`,
     github: 'https://github.com/amar-gupta-au8/crown-cart',
     live: 'https://amar-todoapp.herokuapp.com/',
   },
@@ -24,9 +26,9 @@ const ProjectData = [
     title: 'The Web Dev',
     imageUrl:
       'https://i.ibb.co/G9BkwKH/Screenshot-2020-06-23-at-5-07-21-PM.png',
-    description: `A project based on implementing the most advanced concepts and features of CSS by using SASS, BEM (Block Element Modifier),
-	 Transitions, Color-gradients, Background Images, Background Videos and more. It contains dozens of animations and design features and 
-	 almost everything one can do with the power of CSS.`,
+    description: `The web dev app is a blog app purely based on Node.js with minimalistic CSS. It has the following features:
+    This app has authentication, so users have to sign in before being allowed to do any CRUD (create, read, update, delete) actions  
+  Users can log in and sign up for their accounts.`,
     github: 'https://github.com/amar-gupta-au8/thewebdev',
     live: 'https://thewebdev.herokuapp.com/',
   },
