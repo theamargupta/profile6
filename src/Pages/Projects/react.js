@@ -1,14 +1,5 @@
 const ProjectData2 = [
-  {
-    id: 1,
-    title: 'Ecommerce App',
-    imageUrl: 'https://i.ibb.co/VVDtKVb/3.jpg',
-    description: `A massive Ecommerce app made with React, Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase and covers a lot of 
-      advanced concepts of frontend technologies such as Redux-Sagas, React Router, Asynchronous Redux, Styled-Components, 
-      React Suspense & Lazy, State Normalization, Design Patterns, App Architecture and more.`,
-    github: 'https://github.com/amar-gupta-au8/crown-cart',
-    live: 'https://amar-crown-cart.netlify.app/',
-  },
+  
   {
     id: 3,
     title: 'Asur',
