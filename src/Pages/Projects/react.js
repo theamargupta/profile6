@@ -1,5 +1,33 @@
 const ProjectData2 = [
-  
+  {
+    id: 11,
+    title: 'Netflix Clone',
+    imageUrl:
+      'https://i.ibb.co/B43RxCw/Screenshot-2020-08-30-at-10-21-55-AM.png',
+    description: `I made this porject using tmdb database api, react, react redux and node to manage stripe payment. This is a perfect project for introduction to the world of React and API's. It's fully responsive and functional in
+      different screen sizes.`,
+    github: 'https://github.com/amar-gupta-au8',
+    live: 'http://stream-em-all.herokuapp.com/',
+  },
+  {
+    id: 10,
+    title: 'Whatsapp Clone',
+    imageUrl:
+      'https://i.ibb.co/fGhMx5B/Screenshot-2020-08-30-at-10-21-44-AM.png',
+    description: `I made a clone using firebase and firestore. This is a perfect project for introduction to the world of React and API's. It's fully responsive and functional in different screen sizes.`,
+    github: 'https://github.com/amar-gupta-au8/WhatsappV2.0',
+    live: 'https://amar-whastappv2o.netlify.app/',
+  },
+  {
+    id: 12,
+    title: 'Corona tracker',
+    imageUrl:
+      'https://i.ibb.co/c2yppsx/Screenshot-2020-08-30-at-10-22-05-AM.png',
+    description: `I made this using corona database api to show and use js skills to show on the screen. This is a perfect project for introduction to the world of React and API's. It's fully responsive and functional in
+      different screen sizes.`,
+    github: 'https://github.com/amar-gupta-au8/coronatracker',
+    live: 'https://amar-coronatracker.netlify.app/',
+  },
   {
     id: 3,
     title: 'Asur',
@@ -33,14 +61,14 @@ const ProjectData2 = [
   {
     id: 6,
     title: 'Portfolio2',
-    imageUrl: 'https://i.ibb.co/Vg6LMMF/Screenshot-2020-06-23-at-5-25-54-PM.png',
+    imageUrl:
+      'https://i.ibb.co/Vg6LMMF/Screenshot-2020-06-23-at-5-25-54-PM.png',
     description: `Portfolio – A Successful Dropshipping Ecommerce Store with 390+ products in inventory customized with a theme and high 
       emphasis on its SEO and social media marketing and a smooth and responsive UI using wordpress with various plugins. 
       Features include chat bot for visitors, bulk compression of images, login with facebook integration.`,
     github: 'https://github.com/amar-gupta-au8/profile6',
     live: 'https://amar-profile6.netlify.app/',
   },
-  
 ];
 
 export default ProjectData2;

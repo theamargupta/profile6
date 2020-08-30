@@ -11,15 +11,15 @@ const Projects = () => {
   return (
     <div className="outer">
       <Header projects />
-      <h1 className="prohead">Node.JS</h1>
-      <div className="projectcollection">
-        {ProjectData.map(project => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
-      </div>
       <h1 className="prohead">React</h1>
       <div className="projectcollection">
         {ProjectData2.map(project => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
+      <h1 className="prohead">Node.JS</h1>
+      <div className="projectcollection">
+        {ProjectData.map(project => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
