@@ -7,7 +7,7 @@ const ProjectData2 = [
     description: `I made this porject using tmdb database api, react, react redux and node to manage stripe payment. This is a perfect project for introduction to the world of React and API's. It's fully responsive and functional in
       different screen sizes.`,
     github: 'https://github.com/amar-gupta-au8',
-    live: 'http://stream-em-all.herokuapp.com/',
+    live: 'https://stream-em-all.herokuapp.com',
   },
   {
     id: 10,
