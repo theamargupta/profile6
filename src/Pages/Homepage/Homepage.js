@@ -14,9 +14,9 @@ const Homepage = ({ history }) => {
         <div className='content'>
           <Header homepage className='navheader' />
           {snapp ? (
-            
-               {/* <StarWars />  */}
-            
+            {
+              /* <StarWars />  */
+            }
           ) : (
             <div className='homepage-container'>
               <div>
@@ -25,9 +25,7 @@ const Homepage = ({ history }) => {
               <div className='text-box'>
                 <p className='subtitle'>Hi, my name is</p>
                 <h1 className='title'>Amar Gupta</h1>
-                <span className='subtitle'>
-                  I'm a Full-Stack Web Developer
-                </span>
+                <span className='subtitle'>I'm a Full-Stack Web Developer</span>
               </div>
               <div className='buttons-container'>
                 <div className='buttons'>
@@ -49,7 +47,7 @@ const Homepage = ({ history }) => {
                   </CustomButton>
                   <CustomButton
                     onClick={() =>
-                      window.open(`https://github.com/amar-gupta-au8`, "_blank")
+                      window.open(`https://github.com/theamargupta`, "_blank")
                     }
                   >
                     Github

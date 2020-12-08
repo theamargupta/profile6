@@ -6,7 +6,7 @@ const ProjectData = [
     description: `This project uses Handlebars for the front-end and a NodeJs/Express + OpenWeather for the back-end to create a fully responsive web application that pings the
 	Clarifai API for face detection in images and displays the image with a bounding box around the face along with the name
 	of the celebrity.`,
-    github: 'https://github.com/amar-gupta-au8/weatherapp',
+    github: 'https://github.com/theamargupta/weatherapp',
     live: 'https://amar-weather.herokuapp.com/',
   },
   {
@@ -18,7 +18,7 @@ const ProjectData = [
     Store both new and completed task in a different array.
     Uses the express framework.
     And a very minimal CSS styling`,
-    github: 'https://github.com/amar-gupta-au8/crown-cart',
+    github: 'https://github.com/theamargupta/crown-cart',
     live: 'https://amar-todoapp.herokuapp.com/',
   },
   {
@@ -29,7 +29,7 @@ const ProjectData = [
     description: `The web dev app is a blog app purely based on Node.js with minimalistic CSS. It has the following features:
     This app has authentication, so users have to sign in before being allowed to do any CRUD (create, read, update, delete) actions  
   Users can log in and sign up for their accounts.`,
-    github: 'https://github.com/amar-gupta-au8/thewebdev',
+    github: 'https://github.com/theamargupta/thewebdev',
     live: 'https://thewebdev.herokuapp.com/',
   },
 ];
