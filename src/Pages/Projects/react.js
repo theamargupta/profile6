@@ -92,5 +92,3 @@ const ProjectData2 = [
 ];
 
 export default ProjectData2;
-//
-//
