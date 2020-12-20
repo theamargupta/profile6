@@ -1,6 +1,7 @@
+import React from 'react';
 import styled, { css } from 'styled-components';
 
-export const Content = styled.div`
+const Content = styled.div`
   position: relative;
   z-index: 10;
   text-align: center;
@@ -35,3 +36,16 @@ export const Content = styled.div`
       transition-delay: 0s;
     `}
 `;
+export default ({ active }) => {
+  return (
+    <Content active={active}>
+      <h2>
+        Amar Gupta
+        <br />
+        <span>I'M A FULL-STACK WEB DEVELOPER</span>
+      </h2>
+    </Content>
+  );
+};
+
+

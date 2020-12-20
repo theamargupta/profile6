@@ -1,6 +1,10 @@
+import React from 'react';
+import close from '../Assets/close.png';
+import menu from '../Assets/menu.png';
+import { Link } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 
-export const Header = styled.header`
+const Header = styled.header`
   position: absolute;
   top: 0;
   left: 0;
@@ -20,7 +24,7 @@ export const Header = styled.header`
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
   }
 `;
-export const Toggle = styled.div`
+const Toggle = styled.div`
   position: relative;
   width: 40px;
   height: 40px;
@@ -52,3 +56,16 @@ export const Toggle = styled.div`
       }
     `}
 `;
+
+export default ({ active, setActive }) => {
+  return (
+    <Header>
+      <Link to='/'>Web D</Link>
+      <Toggle
+        active={active}
+        onClick={() => setActive((props) => !props)}
+        style={{ backgroundImage: `url('${!active ? menu : close}')` }}
+      />
+    </Header>
+  );
+};

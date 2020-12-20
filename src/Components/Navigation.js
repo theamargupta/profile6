@@ -1,13 +1,16 @@
+import React from 'react';
+import { list } from '../Utility/data';
+import { Link } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 
-export const Navigation = styled.ul`
+const Navigation = styled.ul`
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
 `;
-export const NavItem = styled.li`
+const NavItem = styled.li`
   list-style: none;
   text-align: center;
   margin: 15px 0;
@@ -46,3 +49,14 @@ export const NavItem = styled.li`
   }
   /* nested component end */
 `;
+export default ({ active }) => {
+  return (
+    <Navigation>
+      {list.map(({ title, url }, index) => (
+        <NavItem active={active} index={index + 1}>
+          <Link to={url}>{title}</Link>
+        </NavItem>
+      ))}
+    </Navigation>
+  );
+};
