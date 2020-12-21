@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import mountainBackground from '../../Assets/Stock-Mac-Wallpaper.jpg';
+import styled, { css } from 'styled-components';
 // Components
 import Header from '../../Components/Header';
 import Navigation from '../../Components/Navigation';
-import styled, { css } from 'styled-components';
 
 //  Style Components
 const Section = styled.section`
@@ -15,7 +15,6 @@ const Section = styled.section`
   align-items: center;
   overflow: hidden;
 `;
-
 const BackgroundImg = styled.img`
   position: absolute;
   top: 0;
@@ -44,7 +43,8 @@ const GlassSlider = styled.div`
       transition-delay: 0s;
     `}
 `;
-const Projects = () => {
+
+export default () => {
   const [active, setActive] = useState(false);
   return (
     <Section>
@@ -56,4 +56,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+
