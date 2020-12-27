@@ -1,45 +1,54 @@
-import React from "react";
-import "./Header.scss";
-import SocialIcons from "../SocialIcons/SocialIcons";
-import Navigation from "../Navigation/Navigation";
-import DropDown from "../DropDown/DropDown";
+import React from 'react';
+import './Header.scss';
+import SocialIcons from '../SocialIcons/SocialIcons';
+import Navigation from '../Navigation/Navigation';
+import DropDown from '../DropDown/DropDown';
 
-import { selectDropHidden } from "../../Redux/Drop/drop-selectors";
-import { toggleHideDropdown } from "../../Redux/Drop/drop-actions";
-import { createStructuredSelector } from "reselect";
-import { connect } from "react-redux";
+import { selectDropHidden } from '../../Redux/Drop/drop-selectors';
+import { toggleHideDropdown } from '../../Redux/Drop/drop-actions';
+import { createStructuredSelector } from 'reselect';
+import { connect } from 'react-redux';
 
-const Header = ({ hidden, homepage, projects, toggleHideDropdown, skills }) => {
+const Header = ({
+  hidden,
+  homepage,
+  projects,
+  toggleHideDropdown,
+  skills,
+  experience,
+}) => {
   return (
-    <div className="header">
+    <div className='header'>
       {hidden ? null : <DropDown />}
-      <div className="home center" onClick={toggleHideDropdown}>
+      <div className='home center' onClick={toggleHideDropdown}>
         <Navigation />
       </div>
 
       {homepage ? (
-        <div className="social">
-          {" "}
+        <div className='social'>
+          {' '}
           <SocialIcons />
         </div>
       ) : (
-        ""
+        ''
       )}
-      {skills ? <div className="center header-title">My Skills</div> : ""}
-      {projects ? <div className="center header-title">My Projects</div> : ""}
+      {skills ? <div className='center header-title'>My Skills</div> : ''}
+      {projects ? <div className='center header-title'>My Projects</div> : ''}
+      {experience ? (
+        <div className='center header-title'>My Experience</div>
+      ) : (
+        ''
+      )}
     </div>
   );
 };
 
 const mapStateToProps = createStructuredSelector({
-  hidden: selectDropHidden
+  hidden: selectDropHidden,
 });
 
-const mapDispatchToProps = dispatch => ({
-  toggleHideDropdown: () => dispatch(toggleHideDropdown())
+const mapDispatchToProps = (dispatch) => ({
+  toggleHideDropdown: () => dispatch(toggleHideDropdown()),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Header);
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

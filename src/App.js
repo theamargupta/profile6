@@ -5,6 +5,7 @@ import Homepage from "./Pages/Homepage/Homepage";
 import { Route } from "react-router-dom";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
+import Experience from "./Pages/Experience/Experience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route exact path="/" component={Homepage} />
       <Route exact path="/skills" component={Skills} />
       <Route exact path="/projects" component={Projects} />
+      <Route exact path="/experience" component={Experience} />
     </div>
   );
 }
