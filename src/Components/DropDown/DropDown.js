@@ -1,7 +1,7 @@
 import React from 'react';
 import './DropDown.scss';
 import { Link } from 'react-router-dom';
-import Pdf from './Resume.pdf';
+import Pdf from './Amar resume (1).pdf';
 import { toggleHideDropdown } from '../../Redux/Drop/drop-actions';
 
 import { connect } from 'react-redux';
@@ -21,9 +21,17 @@ const DropDown = ({ toggleHideDropdown }) => {
         <Link to='/skills'>Skills</Link>
         <Link to='/projects'>Portfolio</Link>
         <Link to='/experience'>Experience</Link>
-        <div className='option' onClick={() => window.open(Pdf, '_blank')}>
+        {/* <div className='option' onClick={() => window.open(Pdf, '_blank')}>
           Resume
-        </div>
+        </div> */}
+        <a
+          className='option'
+          onClick={() => window.open(Pdf, '_blank')}
+          href={Pdf}
+          download='amar-resume'
+        >
+          Resume
+        </a>
         <div
           className='option'
           onClick={() =>
