@@ -6,14 +6,14 @@ import experienceData from './ExperienceData';
 export default () => (
   <div className='experince-page'>
     <Header experience />
-    <div class='container'>
-      <div class='timeline'>
+    <div className='container'>
+      <div className='timeline'>
         <ul>
           {experienceData.map(
             ({ id, date, title, company, desc, duration, location, as }) => (
               <li key={id}>
-                <div class='timeline-content'>
-                  <h3 class='date'>{date}</h3>
+                <div className='timeline-content'>
+                  <h3 className='date'>{date}</h3>
                   <h1>
                     <span className='experinceValues'>{title}</span>
                     {' -'}
