@@ -1,7 +1,7 @@
 import React from 'react';
 import './DropDown.scss';
 import { Link } from 'react-router-dom';
-import Pdf from './Amar resume.pdf';
+import Pdf from './amar-resume.pdf';
 import { toggleHideDropdown } from '../../Redux/Drop/drop-actions';
 
 import { connect } from 'react-redux';
